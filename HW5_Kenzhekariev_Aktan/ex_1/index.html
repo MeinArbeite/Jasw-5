@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .wrapper > div {
+            display: flex;
+            flex-direction: column;
+        }
+        .usd {
+            margin-top: 50px;
+        }
+        .eur{
+            margin-top: 50px;
+        }
+        input {
+            padding: 10px, 20px; 
+        }
+        label {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrpapper">
+        <div class="som">
+            <label for="som">Som</label>
+            <input id="som" type="number">
+        </div>
+        <div class="usd">
+            <label for="usd">Usd</label>
+            <input id="usd" type="number">
+        </div>
+        <div class="eur">
+            <label for="eur">Eur</label>
+            <input id="eur" type="number">
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
